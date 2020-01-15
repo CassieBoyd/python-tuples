@@ -43,5 +43,19 @@ Convert your tuple into a list.
 # zoo_list = [item for item in zoo] 
 # print(zoo_list)
 
-list(zoo)
-print(list(zoo))
+zoo_too = list(zoo)
+print(list(zoo_too))
+
+"""
+Use extend() to add three more animals to your zoo.
+"""
+# Use parentheses and square brackets with extend when adding multiple items.
+zoo_too.extend(["raccoon", "skunk", "opossum"])
+print(zoo_too)
+
+"""
+Convert the list back into a tuple.
+"""
+
+tuple(zoo_too)
+print(zoo_too)

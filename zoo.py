@@ -1,3 +1,5 @@
+# Tuples are like lists, but are immutable. They can't be modified once defined.
+
 """ 
 Create a tuple named zoo that contains 10 of your favorite animals.
 """
@@ -7,12 +9,13 @@ zoo = ("cat", "dragon", "thestral", "unicorn", "raven", "eevee", "fox", "rabbit"
 """ 
 Find one of your animals using the tuple.index(value) syntax on the tuple.
 """
-
+# use .index() to find the index of an item in a tuple
 print(zoo.index("raven"))
 
 """
 Determine if an animal is in your tuple by using value in tuple syntax.
 """
+# in keyword is used to check for a value in the tuple, it returns a boolean and triggers the appropriate code to execute.
 animal_to_find = "dragon"
 if animal_to_find in zoo:
     print(f"Here's your {animal_to_find}!")

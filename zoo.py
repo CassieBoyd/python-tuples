@@ -13,4 +13,8 @@ print(zoo.index("raven"))
 """
 Determine if an animal is in your tuple by using value in tuple syntax.
 """
-
+animal_to_find = "dragon"
+if animal_to_find in zoo:
+    print(f"Here's your {animal_to_find}!")
+else:
+    print(f"We're sorry, but your {animal_to_find} escaped.")

@@ -33,5 +33,15 @@ Create a variable for the animals in your zoo tuple, and print them to the conso
 
 (first_animal, second_animal, third_animal, fourth_animal, fifth_animal, sixth_animal, seventh_animal, eighth_animal,ninth_animal, tenth_animal) = zoo
 
-print(third_animal)
+# print(third_animal)
+print(zoo)
 
+"""
+Convert your tuple into a list.
+"""
+
+# zoo_list = [item for item in zoo] 
+# print(zoo_list)
+
+list(zoo)
+print(list(zoo))

@@ -15,7 +15,7 @@ print(zoo.index("raven"))
 """
 Determine if an animal is in your tuple by using value in tuple syntax.
 """
-# in keyword is used to check for a value in the tuple, it returns a boolean and triggers the appropriate code to execute.
+# "in" keyword is used to check for a value in the tuple, it returns a boolean and triggers the appropriate code to execute.
 animal_to_find = "dragon"
 if animal_to_find in zoo:
     print(f"Here's your {animal_to_find}!")
@@ -34,6 +34,7 @@ print(fourth_child) # Output is "Svetlana"
 Create a variable for the animals in your zoo tuple, and print them to the console.
 """
 
+# Unpacking a tuple into another tuple by having the variable on the right side of the equal sign.
 (first_animal, second_animal, third_animal, fourth_animal, fifth_animal, sixth_animal, seventh_animal, eighth_animal,ninth_animal, tenth_animal) = zoo
 
 # print(third_animal)
@@ -43,8 +44,8 @@ print(zoo)
 Convert your tuple into a list.
 """
 
-# zoo_list = [item for item in zoo] 
-# print(zoo_list)
+zoo_list = [item for item in zoo] 
+print("ZOO LIST", zoo_list)
 
 zoo_too = list(zoo)
 print(list(zoo_too))

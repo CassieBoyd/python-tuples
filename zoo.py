@@ -38,7 +38,7 @@ Create a variable for the animals in your zoo tuple, and print them to the conso
 (first_animal, second_animal, third_animal, fourth_animal, fifth_animal, sixth_animal, seventh_animal, eighth_animal,ninth_animal, tenth_animal) = zoo
 
 # print(third_animal)
-print(zoo)
+print("ZOO", zoo)
 
 """
 Convert your tuple into a list.
@@ -48,20 +48,24 @@ zoo_list = [item for item in zoo]
 print("ZOO LIST", zoo_list)
 
 zoo_too = list(zoo)
-print(list(zoo_too))
+print("ALSO A LIST", list(zoo_too))
+
+print("ZOO TOO", list(zoo_too))
 
 """
 Use extend() to add three more animals to your zoo.
 """
 # Use parentheses and square brackets with extend when adding multiple items.
 zoo_too.extend(["raccoon", "skunk", "opossum"])
-print(zoo_too)
+print("ADD 3", zoo_too)
 
 """
 Convert the list back into a tuple.
 """
 
+# Convert list to tuple
 def convert(zoo_too): 
     return tuple(zoo_too)
+    print(zoo_too)
 
-print(convert(zoo_too))
+print("TUPLE", convert(zoo_too))
